@@ -1,0 +1,65 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+.add-item {
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.add-item input {
+  width: 70%;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.add-item input:focus,
+.add-item button {
+  outline: none;
+}
+.add-item button {
+  width: 25%;
+  height: 34px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.add-item button:hover {
+  cursor: pointer;
+}
+.filter {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.filter button {
+  cursor: pointer;
+}
+.active-button {
+  background-color: red;
+  border: 1px solid red;
+}
+.items ul {
+  padding-left: 10px;
+}
+.items ul li span {
+  margin-right: 10px;
+}
+.items ul li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+.done-item {
+  text-decoration: line-through;
+}
+.items ul li span:nth-child(1) {
+  font-weight: bold;
+  font-size: 18px;
+}
+.items ul li span:nth-child(3) {
+  float: right;
+}
+.items ul li span button {
+  cursor: pointer;
+}
